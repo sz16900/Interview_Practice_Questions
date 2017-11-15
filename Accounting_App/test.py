@@ -16,3 +16,10 @@ class TestClass(object):
         assert len(acc) == 5
         assert acc[1] == -10
         assert list(reversed(acc)) == [30, -20, 50, -10, 20]
+        acc2 = Account('tim', 100)
+        acc2.add_transaction(20)
+        acc2.add_transaction(40)
+        acc2.balance
+        assert acc2 > acc
+        assert not acc2 < acc
+        assert not acc == acc2

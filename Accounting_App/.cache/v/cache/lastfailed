@@ -1,5 +1,6 @@
 {
   "account.py": true,
   "account.py::test_answer": true,
+  "test.py::TestClass": true,
   "test.py::TestClass::()::test_two": true
 }

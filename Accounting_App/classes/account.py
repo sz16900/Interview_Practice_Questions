@@ -1,6 +1,6 @@
-# import functools import total_ordering
-#
-# @total_ordering
+from functools import total_ordering
+
+@total_ordering
 class Account:
 
     def __init__(self, owner, amount=0):
